@@ -1,3 +1,3 @@
 # UUID generator
 
-Genrate random UUID.
+Generate random UUID.
