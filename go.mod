@@ -1,4 +1,4 @@
-module uuidgen
+module github.com/timwmillard/uuidgen
 
 go 1.17
 
