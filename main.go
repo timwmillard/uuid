@@ -38,9 +38,7 @@ func main() {
 	case *v6:
 		id = uuid.Must(uuid.NewV6())
 	case *v7:
-		// In the current RFC Draft version 4, the precision is always milliseconds
-		// https://datatracker.ietf.org/doc/html/draft-peabody-dispatch-new-uuid-format-04#name-uuid-version-7
-		id = uuid.Must(uuid.NewV7(uuid.MillisecondPrecision))
+		id = uuid.Must(uuid.NewV7())
 	default:
 		id = uuid.Must(uuid.NewV4())
 	}
