@@ -30,6 +30,14 @@ uuid -v7
 
 Default will generate a version 4 UUID.
 
+### Generate Multiple UUID's
+
+Use the `-n` flag to generate multiple UUID's.
+
+```sh
+uuid -n=5
+```
+
 ## Why not `uuidgen`
 
 - `uuidgen` generates UUID's in capital letters (personal preference)
