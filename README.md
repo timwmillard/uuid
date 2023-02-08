@@ -43,3 +43,4 @@ uuid -n=5
 - `uuidgen` generates UUID's in capital letters (personal preference)
 - `uuid` is shorter to type (I know I could create an alias but this is funner).
 - Can generate different versions of uuid.
+- Can generate mutiple UUID's.
