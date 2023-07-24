@@ -9,7 +9,7 @@ import (
 
 func main() {
 
-	zero := flag.Bool("nil", false, "generate nil uuid")
+	zero := flag.Bool("nil", false, "generate nil UUID")
 	v1 := flag.Bool("v1", false, "generate version 4")
 	v3 := flag.Bool("v3", false, "generate version 3")
 	v4 := flag.Bool("v4", false, "generate version 4")
@@ -17,8 +17,8 @@ func main() {
 	v6 := flag.Bool("v6", false, "generate version 6")
 	v7 := flag.Bool("v7", false, "generate version 7")
 	n := flag.Int("n", 1, "number of UUID's to generate")
-	namespace := flag.String("namespace", "", "namespace used for version 3 & 5 uuid's")
-	name := flag.String("name", "", "name used for version 3 & 5 uuid's")
+	namespace := flag.String("namespace", "", "namespace used for version 3 & 5 UUID's")
+	name := flag.String("name", "", "name used for version 3 & 5 UUID's")
 
 	flag.Parse()
 
