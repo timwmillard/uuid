@@ -17,8 +17,8 @@ func main() {
 	v6 := flag.Bool("v6", false, "generate version 6")
 	v7 := flag.Bool("v7", false, "generate version 7")
 	n := flag.Int("n", 1, "number of UUID's to generate")
-	namespace := flag.String("namespace", "", "namespace used for version 3 & 4 uuid's")
-	name := flag.String("name", "", "name used for version 3 & 4 uuid's")
+	namespace := flag.String("namespace", "", "namespace used for version 3 & 5 uuid's")
+	name := flag.String("name", "", "name used for version 3 & 5 uuid's")
 
 	flag.Parse()
 
